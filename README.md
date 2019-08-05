@@ -30,7 +30,7 @@
 - 图理解: 左边为一层递归调用，右边为递归返回
 - 每一水平行，都属于 该组件的dispatchTouchEvent方法中的过程
 
-![事件分发图](https://raw.githubusercontent.com/maoqis/androidTouchEvent/master/image-2.png)
+![事件分发图](https://raw.githubusercontent.com/maoqis/androidTouchEvent/master/android-touch.png)
 - 什么是消费？不会继续往别的地方传了，事件终止。消费的过程=>向左retrun true，向上retrun
 - Activity 返回true 或者 false 事件就被消费了（终止传递）, 总不能传给底部的stop状态下的Activity吧。
 
